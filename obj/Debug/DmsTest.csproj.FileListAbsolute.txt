@@ -1,0 +1,5 @@
+E:\code\csharp\DmsTest\DmsTest\bin\DmsTest.dll
+E:\code\csharp\DmsTest\DmsTest\bin\DmsTest.pdb
+E:\code\csharp\DmsTest\DmsTest\obj\Debug\DmsTest.dll
+E:\code\csharp\DmsTest\DmsTest\obj\Debug\DmsTest.pdb
+E:\code\csharp\DmsTest\DmsTest\obj\Debug\DmsTest.csprojResolveAssemblyReference.cache
