@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dmsdatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dmsdatabaseModelStoreContainer">
+    <EntitySet Name="profile" EntityType="dmsdatabaseModel.Store.profile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="roletable" EntityType="dmsdatabaseModel.Store.roletable" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_roletable_profile" Association="dmsdatabaseModel.Store.FK_roletable_profile">
+      <End Role="profile" EntitySet="profile" />
+      <End Role="roletable" EntitySet="roletable" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="profile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="role" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="isActive" Type="int" />
+  </EntityType>
+  <EntityType Name="roletable">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="role" Type="int" Nullable="false" />
+    <Property Name="rolename" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_roletable_profile">
+    <End Role="profile" Type="dmsdatabaseModel.Store.profile" Multiplicity="1" />
+    <End Role="roletable" Type="dmsdatabaseModel.Store.roletable" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="profile">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="roletable">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

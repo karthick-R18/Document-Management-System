@@ -1,0 +1,62 @@
+﻿      body
+        {
+            font-family: georgia;
+            font-size: 15px;
+        }
+         .jumbotron
+        {
+            background-color: #c1b8b8;
+            height: 150px;
+        }      
+      .tab
+      {          
+          font-size:medium;
+          border-style:inherit;
+      }
+      .para1
+      {
+           text-indent:3cm;
+      }
+      .para1:first-letter 
+      {
+          font-size:200%;
+      }
+     
+      .footer
+      {
+          text-align:center;
+          font-size:11px;          
+          left: 0;
+          bottom: 0;
+          width: 100%;         
+      }
+      .dropdown
+      {
+        margin-top:8px;
+        margin-right:4px;
+      }
+      .namelabel
+      {
+          margin-left:10px;
+      }
+      .table-borderless > tbody > tr > td,
+      .table-borderless > tbody > tr > th,
+      .table-borderless > tfoot > tr > td,
+      .table-borderless > tfoot > tr > th,
+      .table-borderless > thead > tr > td,
+      .table-borderless > thead > tr > th 
+      {
+             border: none;
+      }
+      .btnn
+      {    
+          background-color: #222222;
+      }
+      .menuu
+      {
+          background-color:#d6dadb;
+      }
+      textarea
+      {
+          resize:none;
+      }

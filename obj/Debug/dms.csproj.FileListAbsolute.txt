@@ -1,0 +1,15 @@
+E:\code\csharp\dms\dms\bin\dms.dll
+E:\code\csharp\dms\dms\bin\dms.pdb
+E:\code\csharp\dms\dms\obj\Debug\dms.dll
+E:\code\csharp\dms\dms\obj\Debug\dms.pdb
+E:\code\csharp\dms\dms\obj\Debug\dms.csprojResolveAssemblyReference.cache
+D:\DMS project\dms-3\dms\dms\bin\dms.dll
+D:\DMS project\dms-3\dms\dms\bin\dms.pdb
+D:\DMS project\dms-3\dms\dms\obj\Debug\dms.csprojResolveAssemblyReference.cache
+D:\DMS project\dms-3\dms\dms\obj\Debug\dms.dll
+D:\DMS project\dms-3\dms\dms\obj\Debug\dms.pdb
+C:\Users\Karthick.R\Desktop\dms\dms\bin\dms.dll
+C:\Users\Karthick.R\Desktop\dms\dms\bin\dms.pdb
+C:\Users\Karthick.R\Desktop\dms\dms\obj\Debug\dms.csprojResolveAssemblyReference.cache
+C:\Users\Karthick.R\Desktop\dms\dms\obj\Debug\dms.dll
+C:\Users\Karthick.R\Desktop\dms\dms\obj\Debug\dms.pdb

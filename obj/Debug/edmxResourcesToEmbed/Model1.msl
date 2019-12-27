@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dmsdatabaseModelStoreContainer" CdmEntityContainer="dmsdatabaseEntities">
+    <EntitySetMapping Name="roletables">
+      <EntityTypeMapping TypeName="dmsdatabaseModel.roletable">
+        <MappingFragment StoreEntitySet="roletable">
+          <ScalarProperty Name="rolename" ColumnName="rolename" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profiles">
+      <EntityTypeMapping TypeName="dmsdatabaseModel.profile">
+        <MappingFragment StoreEntitySet="profile">
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
